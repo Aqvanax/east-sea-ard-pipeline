@@ -100,6 +100,12 @@ GROUP BY time ORDER BY time;
 
 Verify integrity with `sha256sum -c data/parquet/checksums.sha256`.
 
+[`examples/quickstart.ipynb`](examples/quickstart.ipynb) does exactly this:
+it downloads `measurements_wide.parquet` (or uses the local copy), and with
+three `GROUP BY` queries produces the monthly basin-mean SST series and
+maps of mean SST and mean surface current speed — no geospatial library
+needed.
+
 ## Reproducing the pipeline
 
 ```bash
@@ -124,6 +130,7 @@ bien_dong_boundary.geojson   IHO Sea Areas v3 "Bien Dong" polygon used for maski
 data/parquet/README.md   data card / schema for the published Parquet files
 data/parquet/checksums.sha256
 docs/data_descriptor.md  full description of the dataset and method
+examples/quickstart.ipynb    read the published Parquet and plot it (3 queries, 3 figures)
 ```
 
 Large artefacts (`data/raw`, `data/processed`, `*.duckdb`, `*.parquet`) are
@@ -154,4 +161,4 @@ used as a reviewer during development and to help write the documentation
 (README, data card, data descriptor).
 
 Possible future work: add `mlotst` (mixed layer depth), extend the time
-range, add an example notebook.
+range.

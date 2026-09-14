@@ -11,3 +11,7 @@ pandas==3.0.3
 pyarrow==25.0.0
 numpy==2.5.1
 python-dateutil==2.9.0.post0
+
+# Only needed for examples/quickstart.ipynb
+matplotlib==3.11.2
+requests==2.34.2
