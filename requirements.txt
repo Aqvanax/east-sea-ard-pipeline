@@ -1,0 +1,13 @@
+# Tested with Python 3.14 (any 3.11+ should work). Versions are the ones
+# the dataset was actually produced with; newer patch releases should be fine.
+copernicusmarine==2.4.1
+xarray==2026.7.0
+h5netcdf==1.8.1
+geopandas==1.1.4
+regionmask==0.13.0
+shapely==2.1.2
+duckdb==1.5.5
+pandas==3.0.3
+pyarrow==25.0.0
+numpy==2.5.1
+python-dateutil==2.9.0.post0

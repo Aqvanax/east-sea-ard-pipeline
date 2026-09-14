@@ -1,0 +1,25 @@
+# Data (too large for git; the distribution files live on Zenodo,
+# DOI 10.5281/zenodo.22069105)
+data/raw/
+data/processed/
+data/parquet/*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Python
+pyvenv/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local working notes and journal-submission drafts (not part of the repo)
+PROJECT.md
+MANUSCRIPT_DRAFT.md
+*.docx
+
+# Editors / OS
+.idea/
+.vscode/
+.zed/
+.DS_Store
