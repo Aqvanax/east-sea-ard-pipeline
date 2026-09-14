@@ -15,7 +15,6 @@ Dataset DOI: [10.5281/zenodo.22069105](https://doi.org/10.5281/zenodo.22069105)
 
 ## Specifications
 
-| | |
 |---|---|
 | Subject | Earth and Planetary Sciences; Oceanography |
 | Specific subject area | Regional oceanographic reanalysis subset for the East Sea / Biển Đông (South China Sea), structured as analysis-ready tabular data |
